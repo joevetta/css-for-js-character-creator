@@ -1,4 +1,6 @@
 .buttonRow {
+  /* position: relative; */ /* Scroll Burglar Fix */
+  /* I never had a scroll burglar because I didn't set position: relative on the .MaxWidthWrapper */
   overflow: auto;
   white-space: nowrap;
   margin-left: -20px;
